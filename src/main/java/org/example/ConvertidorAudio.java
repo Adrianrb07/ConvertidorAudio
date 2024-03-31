@@ -15,6 +15,12 @@ public class ConvertidorAudio {
 
     private static final Logger LOGGER = LoggerFactory.getLogger(ConvertidorAudio.class);
 
+    // Formatos soportados: mp3, wav, ogg, flac, aac, m4a, wma, ac3, mp2, amr, pcm_s16le, pcm_s24le, pcm_u8, pcm_s8,
+    // pcm_mulaw, pcm_alaw, adpcm_ima_wav, adpcm_ms, adpcm_swf, adpcm_yamaha, vorbis, libmp3lame, libvorbis, libfaac,
+    // libfaad, libx264, libxvid, mpeg2video, mpeg4, flv, mov, avi, asf, mkv, mp4, 3gp, webm, mjpeg, mpegts, mpegps,
+    // flv, gif, swf, mp3, wav, ogg, flac, aac, m4a, wma, ac3, mp2, amr, pcm_s16le, pcm_s24le, pcm_u8, pcm_s8, pcm_mulaw,
+    // pcm_alaw, adpcm_ima_wav, adpcm_ms, adpcm_swf, adpcm_yamaha, vorbis, libmp3lame, libvorbis, libfaac, libfaad,
+    // libx264, libxvid, mpeg2video, mpeg4, flv, mov, avi, asf, mkv, mp4, 3gp, webm, mjpeg, mpegts, mpegps, flv, gif, swf
     public static void convertir(File origen, File destino, String formatoOrigen, String formatoDestino, String codec) {
         if (!origen.isDirectory() || !destino.isDirectory()) {
             LOGGER.error("Uno de los parámetros no es un directorio o no existe.");
