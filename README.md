@@ -16,8 +16,8 @@ El programa `ConvertidorAudio` es una herramienta de conversión de archivos de 
 ## Configuración
 
 1. Clona el repositorio a tu máquina local:
-- git clone [URL del repositorio]
+  - git clone [URL del repositorio]
 2. Navega al directorio del proyecto y construye el proyecto con Maven:
-- cd [Nombre del directorio del proyecto]
-- mvn clean install
+  - cd [Nombre del directorio del proyecto]
+  - mvn clean install
 
