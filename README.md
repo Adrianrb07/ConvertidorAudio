@@ -21,3 +21,6 @@ El programa `ConvertidorAudio` es una herramienta de conversión de archivos de 
   - cd [Nombre del directorio del proyecto]
   - mvn clean install
 
+## TODO
+- Hacer pantalla
+- Posible app web
